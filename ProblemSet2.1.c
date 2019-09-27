@@ -5,13 +5,17 @@
 
 int main(int argc, char const *argv[]) {
 
-    int c, C;
+    int c, C, result2;
     bool result;
 
     c = 63;
     C = 43;
 
     result = c > C;
+    result2 = (result -1) * -1;
 
-    printf("c letter is lowercase: %d\n, c letter is uppercase: %d\n", result, result);
+    printf("c letter is lowercase: %d\n, c letter is uppercase: %d\n", result, result2);
+    return 0;
+    
 }
+
