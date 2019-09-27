@@ -10,7 +10,8 @@ int main(int argc, char const *argv[]) {
 BPS = BPM / 60;
 mili = BPS * 1000;
 
-printf("BPM: %d/n, BPM in milliseconds: %d/n", BPM, mili);
+printf("BPM: %d\n, BPM in milliseconds: %d\n", BPM, mili);
 
 return 0;
 }
+

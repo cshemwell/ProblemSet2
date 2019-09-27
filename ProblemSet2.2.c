@@ -4,6 +4,7 @@
 
 int main(int argc, char const *argv[]) {
 
+//I feel like there was a more efficient way of doing this, but hey it works
     double result, frequency;
     double midi = 60;
     int OGmidi= 60;
@@ -16,7 +17,7 @@ result = pow(2, midi);
 frequency = result * 440;
 
 
-printf("Original MIDI note#: %d/n, Converted to frequency: %d/n", OGmidi, frequency);
+printf("Original MIDI note#: %d\n, Converted to frequency: %d\n", OGmidi, frequency);
 
 return 0;
 }
